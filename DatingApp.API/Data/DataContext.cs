@@ -10,5 +10,7 @@ namespace DatingApp.API.DatingApp
 
         // we call this Values because it will be representing our table in SQL
         public DbSet<Value> Values { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }
